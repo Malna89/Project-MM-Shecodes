@@ -1,0 +1,132 @@
+body {
+  background: #fff;
+  border: 5px solid#ace0f9 !important;
+  border-radius: 50px !important;
+  max-width: 60%;
+  display: block !important;
+  margin: 0, auto !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: lighter !important;
+}
+h2 {
+  font-size: 22px !important;
+}
+
+.card {
+  margin-top: 20px;
+  border: none !important;
+  border-radius: 35px !important;
+  background-color: transparent !important;
+  margin: 8px !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbutton {
+  color: #fff;
+  background: #3e3bea;
+  border: 1px solid #3e3bea;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #5f5dbd;
+}
+.position {
+  color: #fff;
+  background: #53a8b6;
+  border: 1px solid #53a8b6;
+  padding: 5px 15px;
+  margin: 5px auto;
+  font-size: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  position: relative;
+  top: 13px;
+}
+button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #53a8b6;
+}
+.degrees {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+input {
+  text-align: center;
+  font: size 15px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  top: 10px;
+  display: inline;
+  padding: 5px;
+  position: relative;
+  top: 15px;
+}
+
+.sun-image {
+  color: #f8da5b;
+  font-size: 80px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sun-icon {
+  color: #f8da5b;
+  font-size: 35px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.sun-cloud {
+  font-size: 35px;
+  margin-top: 15px;
+}
+.rain-icon {
+  color: gray;
+  font-size: 35px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.Today,
+.Tomorrow,
+.Weekend,
+.NextWeek {
+  background-color: #fff !important;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.conditions {
+  position: relative !important;
+  top: 100px;
+}
+footer {
+  text-align: center;
+  font-size: 9px;
+  padding: 10px;
+}
+a {
+  text-decoration: none !important;
+}
