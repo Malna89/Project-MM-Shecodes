@@ -130,3 +130,8 @@ footer {
 a {
   text-decoration: none !important;
 }
+.folder{
+  text-decoration: none;
+  text-align: center !important;
+  font-size: 9px;
+}
